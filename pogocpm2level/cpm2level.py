@@ -63,8 +63,8 @@ LEVEL_TO_CPM = {
 	29.5: 0.7255756109952927,
 	30.0: 0.7317000031471252,
 	30.5: 0.7347410172224045,
-	31.0: 0.73776948, # TODO
-	31.5: 0.74078557, # TODO
+	31.0: 0.7377694845199585,
+	31.5: 0.7407855764031410,
 	32.0: 0.74378943, # TODO
 	32.5: 0.746781204, # TODO
 	33.0: 0.74976104, # TODO
@@ -88,7 +88,7 @@ LEVEL_TO_CPM = {
 def cpm2level(cpm):
 	smallest_diff = 1
 	level = 0.0
-	for k, v in LEVEL_TO_CPM.iteritems():
+	for k, v in LEVEL_TO_CPM.items():
 		diff = abs(cpm - v)
 		if diff < smallest_diff:
 			smallest_diff = diff
