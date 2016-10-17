@@ -6,8 +6,8 @@ from setuptools import setup
 setup(
 	name = 'pogocpm2level',
 	packages = ['pogocpm2level'],
-	version = '1.0.0',
-	download_url = 'https://github.com/mathiasbynens/pogocpm2level/tarball/v1.0.0',
+	version = '1.0.1',
+	download_url = 'https://github.com/mathiasbynens/pogocpm2level/tarball/v1.0.1',
 	description = 'Easily calculate the level of a given Pokémon in Pokémon GO based on its total CP multiplier value.',
 	classifiers=[
 		'Development Status :: 5 - Production/Stable',
