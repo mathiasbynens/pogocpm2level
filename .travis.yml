@@ -13,7 +13,5 @@ matrix:
   allow_failures:
     # `pip install` fails on Python 3.2: https://github.com/pypa/pip/issues/3390
     - python: '3.2'
-install: pip install tox
 script:
-  - tox -e lint
   - python setup.py test
